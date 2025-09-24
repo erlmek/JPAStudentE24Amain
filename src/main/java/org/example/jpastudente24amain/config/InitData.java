@@ -19,7 +19,7 @@ public class InitData implements CommandLineRunner {
     public void run(String... args) throws Exception {
         Student s1 = new Student();
         //s1.setId(1);
-        s1.setName("Brucexx");
+        s1.setName("Brucexxyy");
         s1.setBornDate(LocalDate.of(2010, 11, 12));
         s1.setBornTime(LocalTime.of(10,11,12));
         studentRepository.save(s1);
