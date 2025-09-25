@@ -21,7 +21,7 @@ public class StudentRestController {
 
     @GetMapping("/")
     public String isRoot() {
-        return "Du er i roden";
+        return "Du er i roden og det er torsdag";
     }
 
     @GetMapping("/addstudent")
